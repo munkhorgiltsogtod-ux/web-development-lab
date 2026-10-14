@@ -12,6 +12,8 @@
     <div class="logo">
       <h1>Valorant Championship</h1>
     </div>
+    <input type="checkbox" id="nav-toggle" class="nav-toggle" aria-label="Цэс нээх/хаах">
+    <label for="nav-toggle" class="nav-burger" aria-hidden="true"><span></span><span></span><span></span></label>
     <nav class="navbar">
       <ul>
         <li><a href="#">Нүүр</a></li>
@@ -38,10 +40,10 @@
             <label for="game">MAP choice:</label>
             <select id="game" name="game" required>
               <option value="">-- Сонгоно уу --</option>
-              <option value="cs2">SPLIT</option>
-              <option value="valorant">ASCENT</option>
-              <option value="mlbb">LOTUS</option>
-              <option value="dota2">PEARL</option>
+              <option value="split">SPLIT</option>
+              <option value="ascent">ASCENT</option>
+              <option value="lotus">LOTUS</option>
+              <option value="pearl">PEARL</option>
             </select>
 
             <label for="logo">Team logo:</label>
@@ -121,6 +123,7 @@
 
       <section class="card table-section">
         <h2>Оролцож байгаа багууд</h2>
+        <div class="table-wrap">
         <table>
           <thead>
             <tr>
@@ -157,6 +160,7 @@
             </tr>
           </tbody>
         </table>
+        </div>
       </section>
 
     </main>
